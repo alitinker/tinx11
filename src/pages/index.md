@@ -1,9 +1,9 @@
 ---
 templateKey: index-page
-title: Great coffee with a conscience
+title: tinx11
 image: /img/home-jumbotron.jpg
-heading: Great coffee with a conscience
-subheading: Support sustainable farming while enjoying a cup
+heading: tinx11
+subheading: the art of play. computer programming. small robots. legos. peaceful thinking.
 mainpitch:
   title: Why Kaldi
   description: >
