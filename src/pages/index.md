@@ -3,7 +3,7 @@ templateKey: index-page
 title: tinx11
 image: /img/home-jumbotron.jpg
 heading: tinx11
-subheading: the art of play. computer programming. small robots. legos. peaceful thinking.
+subheading: computer programming. small robots. lego. peaceful thinking. the art of play.
 mainpitch:
   title: Why Kaldi
   description: >

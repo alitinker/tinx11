@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: 'tinx11',
     description:
-      'the art of play. computer programming. small robots. legos. peaceful thinking.',
+      'computer programming. small robots. lego. peaceful thinking. the art of play.',
   },
   plugins: [
     'gatsby-plugin-react-helmet',

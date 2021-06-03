@@ -16,9 +16,10 @@ class TagRoute extends React.Component {
     const tag = this.props.pageContext.tag
     const title = this.props.data.site.siteMetadata.title
     const totalCount = this.props.data.allMarkdownRemark.totalCount
-    const tagHeader = `${totalCount} post${
+    const tagHeader = `There ${
+      totalCount === 1 ? 'is' : 'are'} ${totalCount} ${tag} log${
       totalCount === 1 ? '' : 's'
-    } tagged with “${tag}”`
+    }`
 
     return (
       <Layout>
@@ -30,6 +31,10 @@ class TagRoute extends React.Component {
                 className="column is-10 is-offset-1"
                 style={{ marginBottom: '6rem' }}
               >
+                <h1 
+                className="is-size-2"
+                style={{ marginTop: '3rem' }}
+                >{tag}</h1>
                 <h3 className="title is-size-4 is-bold-light">{tagHeader}</h3>
                 <ul className="taglist">{postLinks}</ul>
                 <p>
