@@ -4,9 +4,9 @@
 $bluebell: #323fdc
 $bluebell-txt: #3a5cff
 $bluebell-invert: #eceeff
-$glowstick: #d3ff25
+$glowstick: #a9c53d
 
-$primary: $bluebell
+$primary: $glowstick
 $primary-invert: $bluebell-invert
 $body-color: $bluebell-invert
 $black: #07081a
@@ -23,7 +23,7 @@ a:hover
 .navbar .navbar-menu
   box-shadow:none !important
 
-.section
+.section, article
   padding: 3rem 1.5rem 3rem 1.5rem !important
 
 .content h1, .content h2, .content h3, .content h4
@@ -150,6 +150,13 @@ $menu-label-color: $white-ter
 .blog-list-item .featured-thumbnail
   flex-basis: 35%;
   margin: 0 1.5em 0 0;
+.title:not(.is-spaced) + .subtitle
+  margin-top: 1rem !important
+.subtitle
+  color: $bluebell-txt !important
+  font-size: 1rem !important
+.featured-thumbnail
+  margin-bottom: 20px
 
 
 @import "~bulma"
