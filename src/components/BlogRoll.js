@@ -14,7 +14,7 @@ class BlogRoll extends React.Component {
           posts.map(({ node: post }) => (
             <div className="column is-6" key={post.id}>
               <article
-                className={`${
+                className={`has-border ${
                   post.frontmatter.featuredpost ? 'is-featured' : ''
                 }`}
               >
